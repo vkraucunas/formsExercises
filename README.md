@@ -1,14 +1,5 @@
 # HTML forms and form elements
 
-## Setup
-
-- Fork
-- Clone
-- CD into the directory
-- Run `open index.html`
-
-When you add HTML elements to the forms, and click the button, you will see a table of types / names / values appear below.  This is how you'll know you did it correctly.
-
 ## Resources
 
 - http://www.w3.org/TR/html401/interact/forms.html
