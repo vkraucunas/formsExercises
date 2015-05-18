@@ -28,3 +28,4 @@ Inside the form in `index.html` add some fields:
   - submit the form and inspect the results
 
   ![](img/demo1.png)
+  ![](img/example.png)
