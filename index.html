@@ -4,29 +4,112 @@
 	<title>Forms Work</title>
 </head>
 <body>
+<h1>Form Example 1</h1>
 <label for="user">User Name</label>
-<input type="text" value="shoot, i had something for this" id="user">
+<input 	type="text" 
+		value="that's how you get ants" 
+		id="user">
 <br>
 <br>
-<input type="text">
+<label for="fullName">Full Name</label>
+<input 	type="text" 
+		name="fullName">
 <br>
 <br>
-<textarea name="woo" rows="10" columns="10"></textarea>
+<label for="profile">Profile</label>
+<textarea name="profile" rows="10" columns="10">Write something here.</textarea>
 <br>
 <br>
-<input type="textarea" rows="10" columns="10" value="phrasing!!">
+<label for="hobbies">Hobbies</label>
+<textarea name="hobbies" rows="10" columns="10"></textarea>
 <br>
 <br>
-<input type="email">
+<label for="email">Email</label>
+<input 	type="email" 
+		name="email">
 <br>
 <br>
-<input type="date">
+<label for="date">Date</label>
+<input type="date" name="date">
 <br>
 <br>
-<input type="file">
-
-
+<label for="file">File</label>
+<input 	type="file" 
+		name="file">
+<br>
+<br>
 <input type="submit" value="Submit">
 
+<h1>Form Example 5</h1>
+<label for="song">Song Name</label>
+<input 	type="text" 
+		name="song" 
+		value="Somewhere Over the Rainbow">
+<br>
+<br>
+<label for="email">Songwriter Email</label>
+<input 	type="email" 
+		name="email"
+		value="judy@garlan.net">
+<br>
+<br>
+
+<input 	type="checkbox" 
+		name="will-win-regionals"
+		value="true">
+<label for="will-win-regionals">Aca-awesome?</label>
+<br>
+<br>
+<input type="checkbox"
+		name="will-win-regionals"
+		value="true"
+		checked="on">
+<label for="will-win-regionals">Will win regionals?</label>
+<br>
+<br>
+<label for="diva-level">Slight Diva</label>
+<input type="radio"
+		name="diva-level"
+		value="2">
+<input type="radio"
+		name="diva-level"
+		value="2"
+		checked>
+<input type="radio"
+		name="diva-level"
+		value="2">
+<label for="diva-level">Extreme Diva</label>
+<br>
+<br>
+<label for="comment">Comments</label>
+<br>
+<textarea name="comment">Great song.
+Love it!
+</textarea>
+<br>
+<br>
+<label for="secret-field"><em>Super secret hidden field...</em></label>
+<input type="hidden"
+		name="secret-field"
+		value="42">
+<br>
+<br>
+<label for="soloist">Soloist</label>
+<select name="soloist" value="57">
+	<option>Mercedes Jones</option>
+</select>
+<br>
+<br>
+<input type="submit"
+		value="success">
+
+<input type="submit"
+		value="cancelled">
+
+<input type="submit"
+		value="I can haz html!">
+<br>
+<br>
+<br>
 </body>
 </html>
